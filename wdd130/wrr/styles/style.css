@@ -31,13 +31,11 @@ nav a:hover {
 .msg {
     background-color:#fca311;
 }
-footer {
-    background-color: #7785ac;
-}
 
 
 nav a {
     background-color: #e5e5e5;
+    color: #14213D;
 }
 nav a:hover {
     background-color: #fca311;
@@ -91,7 +89,6 @@ footer a:hover {
 
 nav a, .book, .join, footer a {
     text-align: center;
-    color: #14213D;
     text-decoration: none;
 } 
 footer p {

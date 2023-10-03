@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(255, 159, 196);
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+    font-size: 3em;
+}
+
+h1:hover {
+    color: black;
+}
+
+
+.one {
+    text-align: center;
+    width: 35%;
+    color: #ffffff;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    color: #ffffff;
+}
+
+div { 
+    width: 35%;
+    padding: 10px;
+    margin: 20px;
+    margin: 0 auto;
+}
+
+img {
+    width: 16%;
+    display: block;
+    margin: 0 auto;
+}
+
+.three {
+    text-align: center;
+    width: 28%;
+    font-size: 2.6em;
+    color: #ffffff;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+footer p {
+    width: 25%;
+    text-align: center;
+    margin: 0 auto;
+}

@@ -2,10 +2,21 @@
     max-width: 1600px;
     margin: 0 auto;
 }
-nav a, #hero-msg h1, #hero-msg h4, .button-box ,main section {
+
+
+#hero-msg h1, #hero-msg h4 {
     text-align: center;
 }
+.button-box {
+    text-align: center;
+}
+main section {
+    text-align: center;
+}
+
+
 #background {
+    background-color:#e5e5e5;
     height: 725px;
 }
 
@@ -16,70 +27,62 @@ body {
 header {
     background-color:#14213D;
 }
-nav a:hover {
-    background-color: #14213D;
-}
-.book, .join {
-    background-color:#e5e5e5;
-}
-.book:hover, .join:hover {
-    background-color: #14213D;
-}
-#background {
-    background-color:#e5e5e5;
-}
 .msg {
     background-color:#fca311;
 }
 
 
-nav a {
-    background-color: #e5e5e5;
+h4 {
     color: #14213D;
 }
+.home-title {
+    color: #14213D;
+}
+.msg h2 {
+    color: #14213D;
+}
+.msg p {
+    color: #14213D;
+}
+footer a:hover {
+    color: #fca311;
+}
+
+
 nav a:hover {
     background-color: #fca311;
-    color: #14213D;
-}    
-.home-title {
-    background-color: #14213D;
-    color: #ffffff;
-}
-h4 {
-    background-color: #fca311;
-    color: #14213D;
-}
-.book, .join {
-    background-color: #7785ac;
     color: #14213D;
 }
 .book:hover, .join:hover {
     background-color: #14213D;
     color: #e5e5e5;
 }
-.msg h2 {
-    background-color: #14213D;
-    color: #e5e5e5;
-}
-.msg p {
-    background-color: #fca311;
-    color: #14213D;
-}
 footer {
     background-color: #e5e5e5;
     color: #14213D;
 }
-footer a {
+
+
+nav a {
+    text-align: center;
+    color: #e5e5e5;
+    text-decoration: none;
+}
+.book, .join {
     background-color: #7785ac;
     color: #14213D;
+    text-decoration: none;
 }
-footer a:hover {
-    background-color: #14213D;
-    color: #e5e5e5;
+footer a {
+    color: #14213D;
+    text-decoration: none;
 }
 
 
-.icon, .logo {
+.logo {
+    width: 80px;
+}
+.icon {
     width: 80px;
 }
 #hero-img {
@@ -87,13 +90,9 @@ footer a:hover {
 }
 
 
-nav a, .book, .join, footer a {
-    text-align: center;
-    text-decoration: none;
-} 
 footer p {
     font-size: 1.2em;
-}  
+}
 footer p a:hover {
-    text-decoration: underline;
+    text-decoration: underline;
 }

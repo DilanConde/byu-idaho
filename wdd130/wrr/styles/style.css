@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Roboto&display=swap');
+
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -22,13 +25,22 @@ main section {
 
 
 body {
-    background-color: #fcfbfb; 
+    background-color: #fcfbfb;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 header {
     background-color:#14213D;
 }
 .msg {
     background-color:#fca311;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 
@@ -37,12 +49,18 @@ h4 {
 }
 .home-title {
     color: #14213D;
+    font-family: 'Croissant One', Georgia, serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 .msg h2 {
     color: #14213D;
+    font-family: 'Croissant One', Georgia, serif;
 }
 .msg p {
     color: #14213D;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer a:hover {
     color: #fca311;
@@ -60,6 +78,8 @@ nav a:hover {
 footer {
     background-color: #e5e5e5;
     color: #14213D;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 
@@ -67,11 +87,16 @@ nav a {
     text-align: center;
     color: #e5e5e5;
     text-decoration: none;
+    padding: 35px;
 }
 .book, .join {
     background-color: #7785ac;
     color: #14213D;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 footer a {
     color: #14213D;
@@ -84,9 +109,13 @@ footer a {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
+}
+#logo_link {
+    padding-top: 5px;
 }
 
 
@@ -94,5 +123,25 @@ footer p {
     font-size: 1.2em;
 }
 footer p a:hover {
-    text-decoration: underline;
+    text-decoration: underline;
+}
+
+
+footer .social img {
+    padding-top: 15px;
+}
+
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+
+.card-img {
+    border: 10px solid #14213D;
+}
+
+
+main section img {
+    box-sizing: border-box;
 }

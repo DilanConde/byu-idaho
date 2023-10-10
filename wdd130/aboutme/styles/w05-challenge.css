@@ -1,0 +1,34 @@
+body {
+    margin: 0
+}
+
+#title {
+    width: 100%;
+    display: block;
+}
+
+main {
+    text-align: center;
+    background-color: gray;
+}
+
+#one {
+    border-radius: 50%;
+    width: 300px;
+    margin: 50px;
+    border: 20px solid rgb(73, 73, 73);
+}
+
+#two {
+    border-radius: 50%;
+    width: 300px;
+    margin: 50px;
+    border: 20px solid rgb(73, 73, 73);
+}
+
+#three {
+    border-radius: 50%;
+    width: 300px;
+    margin: 50px;
+    border: 20px solid rgb(73, 73, 73);
+}

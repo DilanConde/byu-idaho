@@ -145,8 +145,6 @@ h2 {
 }
 
 .join {
-    background-color: #14213D;
-    color: #ffffff;
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
@@ -254,21 +252,342 @@ footer .social img {
 
 
 
-.card-img, .one, .two {
+.card-img, .one, .two, .recipe-grid img {
     border: 7px solid #fec601;
     width: 100%;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
 }
 
-.card-img:hover {
+.card-img:hover, .recipe-grid img:hover {
     opacity: .6;
     transform: scale(1.1);
 }
 
-main section img {
+main section img, .recipe-grid img {
     box-sizing: border-box;
 }
+
+
+
+
+.ingredients h3, .steps h3 {
+    color: #55a630;
+    font-family:'Arvo', serif;
+}
+
+.ingredients p, .steps p {
+    color: #53483f;
+}
+
+.suggestion {
+    background: #6f7364;
+    color: #ffffff;
+    padding: 40px;
+}
+
+
+
+.recipe-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.macaroni {
+    grid-column: 1/11;
+    grid-row: 2/6;
+}
+
+.oriental {
+    grid-column: 1/11;
+    grid-row: 7/11;
+}
+
+.turkey {
+    grid-column: 1/11;
+    grid-row: 12/16;
+}
+
+.veals {
+    grid-column: 1/11;
+    grid-row: 17/21;
+}
+
+.tortilla {
+    grid-column: 1/11;
+    grid-row: 22/26;
+}
+
+
+
+.macaroni {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+}
+
+.macaroni h2, p {
+    grid-column: 1/21;
+}
+
+.p1 {
+    grid-column: 2/7;
+    grid-row: 8/9;
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+
+.macaroni h2 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.macaroni-img {
+    grid-column: 2/13;
+    grid-row: 2/8;
+    width: 100%;
+}
+
+.ingredients {
+    grid-column: 15/20;
+    grid-row: 4/7;
+}
+
+.steps {
+    grid-column: 2/14;
+    grid-row: 9/15;
+    margin-bottom: 90px;
+}
+
+.macaroni .suggestion {
+    grid-column: 16/20;
+    grid-row: 10/12;
+}
+
+
+
+.oriental {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+}
+
+.oriental h2, p {
+    grid-column: 1/21;
+}
+
+.p1 {
+    grid-column: 2/7;
+    grid-row: 8/9;
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+
+.oriental h2 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.orienta-img {
+    grid-column: 2/13;
+    grid-row: 2/8;
+    width: 100%;
+}
+
+.ingredients {
+    grid-column: 15/20;
+    grid-row: 4/7;
+}
+
+.steps {
+    grid-column: 2/14;
+    grid-row: 9/15;
+    margin-bottom: 90px;
+}
+
+.oriental .suggestion {
+    grid-column: 16/20;
+    grid-row: 8/13;
+}
+
+
+
+.oriental {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+}
+
+.oriental h2, p {
+    grid-column: 1/21;
+}
+
+.p1 {
+    grid-column: 2/7;
+    grid-row: 8/9;
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+
+.oriental h2 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.orienta-img {
+    grid-column: 2/13;
+    grid-row: 2/8;
+    width: 100%;
+}
+
+.ingredients {
+    grid-column: 15/20;
+    grid-row: 4/7;
+}
+
+.steps {
+    grid-column: 2/14;
+    grid-row: 9/15;
+    margin-bottom: 90px;
+}
+
+.oriental .suggestion {
+    grid-column: 16/20;
+    grid-row: 8/13;
+}
+
+
+
+.turkey {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+}
+
+.turkey h2, p {
+    grid-column: 1/21;
+}
+
+.p1 {
+    grid-column: 2/7;
+    grid-row: 8/9;
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+
+.turkey h2 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.turkey-img {
+    grid-column: 2/13;
+    grid-row: 2/8;
+    width: 100%;
+}
+
+.ingredients {
+    grid-column: 15/20;
+    grid-row: 4/7;
+}
+
+.steps {
+    grid-column: 2/14;
+    grid-row: 9/15;
+    margin-bottom: 90px;
+}
+
+.turkey .suggestion {
+    grid-column: 16/20;
+    grid-row: 8/13;
+}
+
+
+
+.veals {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+}
+
+.veals h2, p {
+    grid-column: 1/21;
+}
+
+.p1 {
+    grid-column: 2/7;
+    grid-row: 8/9;
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+
+.veals h2 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.veals-img {
+    grid-column: 2/13;
+    grid-row: 2/8;
+    width: 100%;
+}
+
+.ingredients {
+    grid-column: 15/20;
+    grid-row: 4/7;
+}
+
+.steps {
+    grid-column: 2/14;
+    grid-row: 9/15;
+    margin-bottom: 90px;
+}
+
+.veals .suggestion {
+    grid-column: 16/20;
+    grid-row: 8/13;
+}
+
+
+
+.tortilla {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+}
+
+.tortilla h2, p {
+    grid-column: 1/21;
+}
+
+.p1 {
+    grid-column: 2/7;
+    grid-row: 8/9;
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+
+.tortilla h2 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.tortilla-img {
+    grid-column: 2/13;
+    grid-row: 2/8;
+    width: 100%;
+}
+
+.ingredients {
+    grid-column: 15/20;
+    grid-row: 4/7;
+}
+
+.steps {
+    grid-column: 2/14;
+    grid-row: 9/15;
+    margin-bottom: 90px;
+}
+
+.tortilla .suggestion {
+    grid-column: 16/20;
+    grid-row: 8/13;
+}
+
 
 
 @media screen and (max-width: 900px) {
